@@ -1,10 +1,13 @@
 # IGNORE THY DIRECTORIES #
 .idea
 .vagrant
+vendor
+build
 
 # IGNORE THY FILES #######
 .DS_Store
 .env
+.phpunit.result.cache
 *.iml
 writable/**/*.log
 writable/**/*.json

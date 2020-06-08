@@ -15,8 +15,4 @@ class Home extends BaseController
 			->setContentType('application/json')
 			->setJSON($data);
 	}
-	public function foo()
-	{
-		return "Jilted jack.";
-	}
 }

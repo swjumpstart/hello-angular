@@ -15,4 +15,6 @@ class AuthenticationController extends BaseController
 			->setContentType('application/json')
 			->setJSON($data);
 	}
+
+
 }
