@@ -2,9 +2,9 @@
 
 use App\Models\UserModel;
 
-class Home extends BaseController
+class AuthenticationController extends BaseController
 {
-	public function index()
+	public function register()
 	{
 		$userModel = new UserModel();
 		$data = array();
@@ -14,9 +14,5 @@ class Home extends BaseController
 			->setStatusCode(200)
 			->setContentType('application/json')
 			->setJSON($data);
-	}
-	public function foo()
-	{
-		return "Jilted jack.";
 	}
 }
