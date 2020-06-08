@@ -6,4 +6,5 @@
 .DS_Store
 .env
 *.iml
+writable/**/*.log
 writable/**/*.json
