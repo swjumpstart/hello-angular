@@ -2,7 +2,6 @@
 
 
 use CodeIgniter\Model;
-use http\Client\Curl\User;
 
 class UserModel extends Model
 {
